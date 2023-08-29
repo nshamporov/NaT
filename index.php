@@ -7,7 +7,7 @@
     
         try{
             $connection = new PDO($dsn , $dbuser, $dbPassword); 
-            echo "connection successful";
+            echo "";
     
         }catch(PDOException $e){
             // die ('Connection failed!' . $exception ->getMessage());
@@ -61,7 +61,7 @@
             <a href="music.php"><li>Music</li></a>
             <a href="artist.php"><li>Artists</li></a>
             <a href="about.html"><li>About</li></a>
-            <a href="admin/assignment6/stuffs/admin_login.php" style="margin-left:120vh;"><li>Admin Login</li></a>
+            <a href="admin/assignment6/stuffs/admin_login.php" style="margin-left: 800px;"><li>Admin Login</li></a>
         </ul>
     </div>
 <!-- main-body -->
@@ -137,9 +137,9 @@
 
         <div class="social">
             <h2>FOLLOW US:</h2>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-line"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100080465006403"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/nikita.shamporov/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://line.me/ti/p/gwckU7pdk3"><i class="fa-brands fa-line"></i></a>
         </div>
 
     </div>

@@ -7,7 +7,7 @@
     
         try{
             $connection = new PDO($dsn , $dbuser, $dbPassword); 
-            echo "connection successful";
+            echo "";
     
         }catch(PDOException $e){
             // die ('Connection failed!' . $exception ->getMessage());
