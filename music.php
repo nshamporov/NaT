@@ -3,7 +3,7 @@
     // data base connection
         $dsn = 'mysql:dbname=musicprojectdb;host=localhost';
         $dbuser ='root';
-        $dbPassword ='061006nik';
+        $dbPassword ='061006Nik.';
     
         try{
             $connection = new PDO($dsn , $dbuser, $dbPassword); 
